@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'Playfair Display', serif;
+}
+
+.homeHeading {
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.aligner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border-style: solid;
+  border-width: 5px;
+  border-color: aquamarine;
+  width: 300px;
+  word-wrap: break-word;
+  margin: 10px;
+}
+
+.cardData {
+  color: lightsteelblue;
+  font-family: 'Raleway', sans-serif, Medium 500;
+  font-size: 18px;
+}
+
+.fetchheading {
+  color: aquamarine;
+  font-family: 'Raleway', sans-serif, Medium 500;
+  font-size: 40px;
+}
+
+.categories button {
+  background-color: aquamarine;
+  color: darkslategray;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  display: block;
+  gap: 2px;
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnGrp button {
+  background-color: aquamarine;
+  color: darkslategray;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  gap: 2px;
+  width: 300px;
+  height: 75px;
+  margin: 10px;
+}
+
+.btnGrp {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 600px;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+.side2side {
+  display: flex;
+  align-items: center;
+}
+
+
+.delfromwishlist button {
+  background-color: aquamarine;
+  color: darkslategray;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: small;
+  margin: 11px;
+}
+
+.backbtn {
+  background-color: aquamarine;
+  color: darkslategray;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px !important;
+  display: block;
+  gap: 2px;
+  width: 100px !important;
+  height: 80px !important;
+  margin: 10px;
+  text-align: center;
+}
